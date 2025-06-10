@@ -207,7 +207,7 @@ def active_loop(max_iter: int, cfg_path: str, device: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--cfg", default="active_3/config_landcover.py")
+    parser.add_argument("--cfg", default="active/config_landcover.py")
     parser.add_argument("--max_iter", type=int, default=20)
     parser.add_argument("--device", default="cuda")
     args = parser.parse_args()
